@@ -11,7 +11,7 @@ Configure the CPU, RAM, storage, and network settings of the Ubuntu virtual mach
 The virtual machine was configured with:
 
 - **Base Memory:** 2048 MB (2 GB)
-- **Processors:** 2
+- **Number of CPU:** 2
 - **I/O APIC:** Enabled
 
 <img width="1081" height="491" alt="image" src="https://github.com/user-attachments/assets/dfe00cc6-8362-476f-88ca-e8e77c18b7ff" />
