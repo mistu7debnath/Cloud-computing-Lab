@@ -3,25 +3,15 @@
 ## Objective
 Create a new virtual machine using Oracle VirtualBox.
 
-## Hypervisor
-Oracle VirtualBox
-
-## VM Configuration
-- VM Name: Ubuntu 26.04
-- Operating System: Linux
-- Distribution: Ubuntu
-- Version: Ubuntu (64-bit)
-- VM Folder: VirtualBox VMs
-- ISO Image: Ubuntu 26.04 Desktop ISO
-
-## Steps Performed
+## Steps
 1. Opened Oracle VirtualBox.
-2. Selected **New** to create a new virtual machine.
+2. Clicked **New** to create a new virtual machine.
 3. Entered the VM name as `Ubuntu 26.04`.
-4. Selected Linux as the operating system.
-5. Selected Ubuntu (64-bit) as the OS version.
-6. Selected the downloaded Ubuntu ISO image.
-7. Proceeded with the VM creation.
+4. Selected:
+   - OS: Linux
+   - Distribution: Ubuntu
+   - Version: Ubuntu (64-bit)
+5. Proceeded with the VM creation.
 
 ## Screenshot
 
