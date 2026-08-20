@@ -27,7 +27,8 @@ The virtual machine was configured with:
 - **Optical Drive:** Ubuntu 26.04 Desktop ISO
 - **Virtual Disk Size:** 20 GB
 
-![Storage Configuration](./06-storage.png)
+<img width="1918" height="993" alt="image" src="https://github.com/user-attachments/assets/fbd9a1fa-0295-4ea2-9b51-df41848bc92d" />
+
 
 ---
 
