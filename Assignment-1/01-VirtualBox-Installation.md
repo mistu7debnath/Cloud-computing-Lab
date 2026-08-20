@@ -1,1 +1,6 @@
-• Install an open-source hypervisor such as Oracle VirtualBox
+## Step 1: Install Oracle VirtualBox
+
+Installed Oracle VirtualBox successfully.
+
+### Screenshot
+![image](https://github.com/user-attachments/assets/...)
