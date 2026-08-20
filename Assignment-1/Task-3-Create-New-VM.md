@@ -25,7 +25,8 @@ Oracle VirtualBox
 
 ## Screenshot
 
-<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/413f6cf3-87bc-453d-8260-f5d6f06ec341" />
+<img width="1913" height="1002" alt="image" src="https://github.com/user-attachments/assets/73d9ec5f-99f1-469b-a76c-b449b2334594" />
+
 
 ## Status
 ✅ Task completed successfully.
