@@ -16,6 +16,8 @@ Create a new virtual machine using Oracle VirtualBox.
 ## Screenshot
 
 <img width="1913" height="1002" alt="image" src="https://github.com/user-attachments/assets/73d9ec5f-99f1-469b-a76c-b449b2334594" />
+<img width="1901" height="961" alt="image" src="https://github.com/user-attachments/assets/2189a10a-d0dc-4c6e-9cac-aadc4897fb8a" />
+
 
 
 ## Status
