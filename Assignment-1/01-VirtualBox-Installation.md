@@ -3,4 +3,4 @@
 Installed Oracle VirtualBox successfully.
 
 ### Screenshot
-![image](https://github.com/user-attachments/assets/...)
+
