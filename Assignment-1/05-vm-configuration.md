@@ -39,8 +39,9 @@ The network adapter was configured as:
 - **Network Adapter:** Enabled
 - **Attached to:** NAT
 - **Adapter Type:** Intel PRO/1000 MT Desktop
+  
+<img width="1917" height="1022" alt="image" src="https://github.com/user-attachments/assets/0ec5309f-a17a-4fb0-8491-c62a6b026bdc" />
 
-![Network Configuration](./07-network.png)
 
 ---
 
