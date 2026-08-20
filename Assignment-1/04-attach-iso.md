@@ -13,8 +13,7 @@ Attach the downloaded Ubuntu ISO image to the virtual machine.
    `ubuntu-26.04-desktop-amd64.iso`
 
 ## Screenshot
-
-<img width="1914" height="997" alt="image" src="https://github.com/user-attachments/assets/0501acbe-4f7d-48b8-b41e-daac1279bd9b" />
+<img width="1916" height="1000" alt="image" src="https://github.com/user-attachments/assets/97bd1463-816e-4610-a753-ddef815d8f8b" />
 
 ## Status
 ✅ Completed
