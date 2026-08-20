@@ -14,7 +14,8 @@ The virtual machine was configured with:
 - **Processors:** 2
 - **I/O APIC:** Enabled
 
-![CPU and RAM Configuration](./05-system-cpu-ram.png)
+<img width="1081" height="491" alt="image" src="https://github.com/user-attachments/assets/dfe00cc6-8362-476f-88ca-e8e77c18b7ff" />
+
 
 ---
 
