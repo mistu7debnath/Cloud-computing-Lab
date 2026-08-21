@@ -1,1 +1,44 @@
+# Ubuntu Installation Error / Issue
 
+## Problem
+
+After creating and configuring the Ubuntu 26.04 Virtual Machine, I was unable to proceed with the Ubuntu installation.
+
+When I started the VM and selected **Try or Install Ubuntu**, the system remained stuck on the Ubuntu loading screen.
+
+The Ubuntu desktop/installation screen did not appear, and the VM became unresponsive.
+
+---
+
+## VM Configuration at the Time of the Issue
+
+- **Operating System:** Ubuntu 26.04
+- **RAM:** 2048 MB (2 GB)
+- **CPU:** 2
+- **Virtual Disk:** 20 GB
+- **Video Memory:** 18 MB
+- **Graphics Controller:** VMSVGA
+- **Network:** NAT
+
+---
+
+## Error / Issue Observed
+
+The VM displayed the Ubuntu loading screen but did not proceed to the Ubuntu desktop or installation screen.
+
+The mouse and keyboard also became unresponsive during the attempt.
+
+### Screenshot
+
+![Ubuntu Installation Loading Issue](./08-ubuntu-loading-error.png)
+
+---
+
+## Troubleshooting Attempted
+
+### 1. Tried the Normal Ubuntu Boot Option
+
+Selected:
+
+```text
+Try or Install Ubuntu
