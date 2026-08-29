@@ -1,4 +1,4 @@
-## 2. Obtain a suitable VM image/ISO file.
+## 2. Obtain a suitable VM image/ISO file:
 
 Ubuntu 26.04 LTS was selected for the virtual machine.
 
