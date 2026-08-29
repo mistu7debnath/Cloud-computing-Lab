@@ -6,7 +6,7 @@ To install and configure an open-source hypervisor, create and configure a Virtu
 
 ---
 
-## 1. Install Oracle VirtualBox
+## 1. Install Oracle VirtualBox:
 
 Oracle VirtualBox was installed as the open-source hypervisor.
 
