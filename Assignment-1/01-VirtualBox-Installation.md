@@ -1,6 +1,6 @@
 # Experiment 1 – Installation of Hypervisors and Initiation of VMs
 
-## Objective
+## Objective:
 
 To install and configure an open-source hypervisor, create and configure a Virtual Machine (VM) using an existing Ubuntu ISO image, boot the VM, and verify the Linux environment.
 
