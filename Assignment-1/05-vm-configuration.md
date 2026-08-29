@@ -1,6 +1,6 @@
 # Task 5 — Configure the VM's CPU, RAM, Storage and Network
 
-## Objective
+## Objective:
 
 Configure the CPU, RAM, storage, and network settings of the Ubuntu virtual machine.
 
