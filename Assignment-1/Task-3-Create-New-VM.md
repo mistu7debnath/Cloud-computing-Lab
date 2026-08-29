@@ -1,6 +1,6 @@
 # Task 3 — Create a New Virtual Machine
 
-## Objective
+## Objective:
 Create a new virtual machine using Oracle VirtualBox.
 
 ## Steps
