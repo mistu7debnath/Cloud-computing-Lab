@@ -1,6 +1,6 @@
 ## 06. Complete the Guest OS Installation
 
-The Ubuntu guest operating system was successfully installed inside the VirtualBox virtual machine. After completing the Ubuntu installation, the VM was restarted and Ubuntu booted successfully.
+The Ubuntu guest operating system was successfully installed inside the VirtualBox virtual machine. After completing the Ubuntu installation, the virtual machine was restarted and Ubuntu booted successfully.
 
 ### Installation Completed
 
@@ -8,6 +8,6 @@ The Ubuntu installation was completed successfully. After restarting the virtual
 
 ### Screenshot
 
-
+![Ubuntu Guest OS Installation Completed](./06-ubuntu-installation-complete.png)
 
 **Figure 1:** Ubuntu login screen after successful guest OS installation.
