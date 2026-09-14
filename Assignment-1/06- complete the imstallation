@@ -1,1 +1,10 @@
 
+“Now I will complete the guest operating system installation. I have started the virtual machine and booted it using the attached Ubuntu ISO image.
+
+I will follow the Ubuntu installation steps by selecting the appropriate language and keyboard layout, configuring the user account, and selecting the required installation options.
+
+For the encryption option, I have selected No encryption, as it is not required for this assignment.
+
+The installation process will now copy the required files and install Ubuntu on the virtual hard disk.
+
+Once the installation is completed, I will restart the virtual machine and remove the installation medium so that Ubuntu boots from the newly installed virtual hard disk.”
