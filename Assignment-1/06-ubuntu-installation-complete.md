@@ -8,6 +8,6 @@ The Ubuntu installation was completed successfully. After restarting the virtual
 
 ### Screenshot
 
-![Ubuntu Guest OS Installation Completed](./06-ubuntu-installation-complete.png)
+![Ubuntu Guest OS Installation Completed](https://github.com/mistu7debnath/Cloud-computing-Lab/blob/main/Assignment-1/06-ubuntu-installation-complete.png)
 
 **Figure 1:** Ubuntu login screen after successful guest OS installation.
