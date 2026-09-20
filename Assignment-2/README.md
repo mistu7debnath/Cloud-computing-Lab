@@ -100,11 +100,8 @@ Step 5: Configure the Network Adapter of VM-1
 Step 6: Configure the Network Adapter of VM-2
 1. Select VM-2 in VirtualBox.
 2. Go to:- Settings → Network
-Enable Adapter 1.
-Under Attached to, select:
-NAT Network
-Select the same NAT Network:
-CloudLab-NAT
-Click OK.
-
+3. Enable Adapter 1.
+4. Under Attached to, select:- NAT Network
+5. Select the same NAT Network:- MynatNetwork
+6. Click OK.
 Both VMs must be connected to the same NAT Network.
