@@ -85,9 +85,7 @@ A separate NAT Network is created manually so that both VMs can communicate with
 3. Open the NAT Networks section.
 4. Click Create.
 5. Enter a name for the NAT Network, for example:- MynatNetwork
-Configure the network address, for example:
-10.0.2.0/24
-Enable the DHCP option if required.
-Save the NAT Network configuration.
+
+apply the NAT Network configuration.
 
 The NAT Network has now been created.
