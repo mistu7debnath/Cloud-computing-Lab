@@ -59,7 +59,4 @@ Instead of installing Linux again, an existing VM can be cloned.
 2. Open **Oracle VirtualBox**.
 3. Select the existing Linux VM.
 4. Right-click the VM and select **Clone**.
-5. Give the new VM a different name, for example:
-
-```text
-Ubuntu-VM-2
+5. Give the new VM a different name, for example: Ubuntu VM-2
