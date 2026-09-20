@@ -143,3 +143,18 @@ If the connection is successful, replies similar to the following will be displa
 Press:
 Ctrl + C
 to stop the ping test.
+
+
+Step 11: Test Connectivity from VM-2 to VM-1
+
+Now perform the reverse connectivity test.
+
+From VM-2, use the IP address of VM-1:
+
+ping 10.0.2.4
+
+If successful, VM-2 will receive replies from VM-1.
+
+Press:
+Ctrl + C
+to stop the test.
