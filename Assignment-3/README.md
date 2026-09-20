@@ -190,7 +190,6 @@ sudo mn -c
 # Topology 2: Linear Topology
 
 ## Step 12: Create Linear Topology
-
 Create the linear topology using the Mininet topology option:
 
 ```bash
