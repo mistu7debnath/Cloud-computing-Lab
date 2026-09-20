@@ -132,3 +132,14 @@ Example:
 10.0.2.5
 Note down the IP address of VM-2.
 The exact IP addresses may be different depending on the DHCP configuration.
+
+Step 10: Test Connectivity from VM-1 to VM-2
+From VM-1, use the IP address of VM-2 with the ping command.
+Example:
+ping 10.0.2.5
+If the connection is successful, replies similar to the following will be displayed:
+64 bytes from 10.0.2.5: icmp_seq=1 ttl=64 time=0.XXX ms
+64 bytes from 10.0.2.5: icmp_seq=2 ttl=64 time=0.XXX ms
+Press:
+Ctrl + C
+to stop the ping test.
