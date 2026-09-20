@@ -153,3 +153,17 @@ If successful, VM-2 will receive replies from VM-1.
 Press:
 Ctrl + C
 to stop the test.
+
+
+Step 12: Verify the Network Connectivity
+
+The following points should be verified:
+
+Both VMs are powered on.
+Both VMs are connected to the same NAT Network.
+Both VMs have different MAC addresses.
+Both VMs have valid IP addresses.
+VM-1 can ping VM-2.
+VM-2 can ping VM-1.
+
+Successful replies from the ping command confirm that communication between the two VMs has been established.
