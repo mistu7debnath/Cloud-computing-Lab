@@ -275,3 +275,91 @@ sudo mn -c
 ```
 
 ---
+
+# Topology 3: Tree Topology
+
+## Step 18: Create Tree Topology
+
+Create a tree topology using:
+
+```bash
+sudo mn --topo tree,depth=2,fanout=2
+```
+
+The tree topology creates a hierarchical structure containing switches and hosts.
+
+A simplified representation is:
+
+```text
+             s1
+           /    \
+         s2      s3
+        / \      / \
+       h1 h2    h3 h4
+```
+
+---
+
+## Step 19: View the Nodes
+
+Inside Mininet, run:
+
+```bash
+nodes
+```
+
+This displays all nodes in the tree topology.
+
+---
+
+## Step 20: View the Links
+
+Run:
+
+```bash
+links
+```
+
+This displays the links between the switches and hosts.
+
+---
+
+## Step 21: Test Connectivity
+
+Use:
+
+```bash
+pingall
+```
+
+This checks whether all hosts in the tree topology can communicate with each other.
+
+---
+
+## Step 22: Test Individual Hosts
+
+For example:
+
+```bash
+h1 ping -c 4 h2
+```
+
+This checks connectivity between `h1` and `h2`.
+
+---
+
+## Step 23: Stop the Tree Topology
+
+Exit Mininet:
+
+```bash
+exit
+```
+
+Then clean the network:
+
+```bash
+sudo mn -c
+```
+
+---
