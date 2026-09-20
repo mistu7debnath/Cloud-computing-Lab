@@ -80,8 +80,8 @@ Both VMs should now be running simultaneously.
 Step 4: Create a NAT Network
 A separate NAT Network is created manually so that both VMs can communicate with each other.
 
-Open Oracle VirtualBox.
-From the menu, open:
+1. Open Oracle VirtualBox.
+2. From the menu, open:
 File → Tools → Network Manager
 Open the NAT Networks section.
 Click Create.
