@@ -188,3 +188,90 @@ sudo mn -c
 ```
 
 ---
+
+
+# Topology 2: Linear Topology
+
+## Step 12: Create Linear Topology
+
+Create the linear topology using the Mininet topology option:
+
+```bash
+sudo mn --topo linear,3
+```
+
+A linear topology connects the nodes in a sequence.
+
+Example:
+
+```text
+h1 --- s1 --- s2 --- s3 --- h2
+```
+
+The exact arrangement depends on the topology parameters used.
+
+---
+
+## Step 13: View the Nodes
+
+Inside Mininet, run:
+
+```bash
+nodes
+```
+
+This displays all the hosts and switches in the linear topology.
+
+---
+
+## Step 14: View the Links
+
+Run:
+
+```bash
+links
+```
+
+This displays the links between the hosts and switches.
+
+---
+
+## Step 15: Test Connectivity
+
+Run:
+
+```bash
+pingall
+```
+
+This verifies connectivity between all the hosts in the linear topology.
+
+---
+
+## Step 16: Test Individual Host Connectivity
+
+An individual host-to-host connection can also be tested using:
+
+```bash
+h1 ping -c 4 h2
+```
+
+Successful replies indicate that communication is working between the hosts.
+
+---
+
+## Step 17: Stop the Linear Topology
+
+Exit Mininet:
+
+```bash
+exit
+```
+
+Then clean the network:
+
+```bash
+sudo mn -c
+```
+
+---
