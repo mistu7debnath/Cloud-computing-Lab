@@ -49,7 +49,7 @@ The command installs Mininet along with its required dependencies.
 After installing Mininet, test the installation using:
 
 ```bash
- mn --version
+sudo mn --test pingall
 ```
 
 This command creates a basic Mininet network and tests connectivity between the virtual hosts.
