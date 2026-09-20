@@ -363,3 +363,24 @@ sudo mn -c
 ```
 
 ---
+
+# Important Mininet Commands
+
+| Command | Purpose |
+|---|---|
+| `sudo apt update` | Update Ubuntu package information |
+| `sudo apt install mininet -y` | Install Mininet |
+| `mn --version` | Check Mininet version |
+| `sudo mn` | Start Mininet |
+| `pingall` | Test connectivity between all hosts |
+| `nodes` | Display all nodes |
+| `links` | Display all links |
+| `h1 ip addr` | Display IP address information of h1 |
+| `h1 ping -c 4 h2` | Test connectivity between h1 and h2 |
+| `exit` | Exit Mininet |
+| `sudo mn -c` | Clean the Mininet network |
+| `sudo mn --topo single,2` | Create a single topology |
+| `sudo mn --topo linear,3` | Create a linear topology |
+| `sudo mn --topo tree,depth=2,fanout=2` | Create a tree topology |
+
+---
