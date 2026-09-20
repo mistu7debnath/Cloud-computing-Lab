@@ -110,3 +110,15 @@ Step 7: Start Both VMs Again
 
 Start both VMs after configuring their network adapters.
 Open a Terminal in each VM.
+
+Step 8: Check the IP Address of VM-1
+
+In VM-1, open the Terminal and run:
+
+ip addr
+or: ip a
+Find the IP address assigned to the network interface.
+Example:
+10.0.2.4
+
+Note down the IP address of VM-1.
