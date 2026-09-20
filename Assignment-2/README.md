@@ -81,10 +81,9 @@ Step 4: Create a NAT Network
 A separate NAT Network is created manually so that both VMs can communicate with each other.
 
 1. Open Oracle VirtualBox.
-2. From the menu, open:
-File → Tools → Network Manager
-Open the NAT Networks section.
-Click Create.
+2. From the menu, open:- File → Tools → Network Manager
+3. Open the NAT Networks section.
+4. Click Create.
 Enter a name for the NAT Network, for example:
 CloudLab-NAT
 Configure the network address, for example:
