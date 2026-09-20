@@ -60,3 +60,10 @@ Instead of installing Linux again, an existing VM can be cloned.
 3. Select the existing Linux VM.
 4. Right-click the VM and select **Clone**.
 5. Give the new VM a different name, for example: Ubuntu VM-2
+
+6. Select Full Clone.
+7. When VirtualBox asks about MAC addresses, select:- Generate New MAC Addresses for All Network Adapters
+Click Finish and wait for the cloning process to complete.
+The newly created VM will appear in VirtualBox.
+
+Important: When cloning a VM, a new MAC address should be generated for the cloned VM. This prevents both VMs from having the same network identity and helps avoid network connectivity problems.
