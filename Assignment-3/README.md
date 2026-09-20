@@ -1,15 +1,12 @@
 # Assignment-3: Creation of Network Topologies Using Mininet
 
 ## Experiment
-
 **Experiment 3: Creation of a Simple Network Topology Using Open-Source Network Virtualization Tools**
 
 ## Objective
-
 To create and configure different network topologies using Mininet and verify communication between the virtual network nodes.
 
 ## Requirements
-
 - Ubuntu Linux Virtual Machine
 - Oracle VirtualBox
 - Mininet
@@ -384,3 +381,4 @@ sudo mn -c
 | `sudo mn --topo tree,depth=2,fanout=2` | Create a tree topology |
 
 ---
+
