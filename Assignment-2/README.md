@@ -63,6 +63,7 @@ Instead of installing Linux again, an existing VM can be cloned.
 
 6. Select Full Clone.
 7. When VirtualBox asks about MAC addresses, select:- Generate New MAC Addresses for All Network Adapters
+   
 Click Finish and wait for the cloning process to complete.
 The newly created VM will appear in VirtualBox.
 
