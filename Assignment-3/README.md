@@ -355,7 +355,6 @@ Then clean the network:
 ```bash
 sudo mn -c
 ```
-
 ---
 
 # Important Mininet Commands
