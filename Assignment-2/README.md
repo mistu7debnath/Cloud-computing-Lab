@@ -87,3 +87,14 @@ A separate NAT Network is created manually so that both VMs can communicate with
 5. Enter a name for the NAT Network, for example:- MynatNetwork
 apply the NAT Network configuration.
 The NAT Network has now been created.
+
+Step 5: Configure the Network Adapter of VM-1
+1. Shut down VM-1 if necessary.
+2. In VirtualBox, select VM-1.
+3. Go to:- Settings → Network
+Enable Adapter 1.
+Under Attached to, select:
+NAT Network
+Select the NAT Network created earlier:
+CloudLab-NAT
+Click OK.
