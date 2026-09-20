@@ -105,3 +105,8 @@ Step 6: Configure the Network Adapter of VM-2
 5. Select the same NAT Network:- MynatNetwork
 6. Click OK.
 Both VMs must be connected to the same NAT Network.
+
+Step 7: Start Both VMs Again
+
+Start both VMs after configuring their network adapters.
+Open a Terminal in each VM.
