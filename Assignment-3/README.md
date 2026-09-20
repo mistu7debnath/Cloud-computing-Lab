@@ -346,13 +346,11 @@ This checks connectivity between `h1` and `h2`.
 ---
 
 ## Step 23: Stop the Tree Topology
-
 Exit Mininet:
 
 ```bash
 exit
 ```
-
 Then clean the network:
 
 ```bash
