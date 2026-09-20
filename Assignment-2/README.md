@@ -75,5 +75,21 @@ Start the first VM.
 Start the second VM.
 Wait until both Linux systems have completely booted.
 Open the Terminal in both VMs.
-
 Both VMs should now be running simultaneously.
+
+Step 4: Create a NAT Network
+A separate NAT Network is created manually so that both VMs can communicate with each other.
+
+Open Oracle VirtualBox.
+From the menu, open:
+File → Tools → Network Manager
+Open the NAT Networks section.
+Click Create.
+Enter a name for the NAT Network, for example:
+CloudLab-NAT
+Configure the network address, for example:
+10.0.2.0/24
+Enable the DHCP option if required.
+Save the NAT Network configuration.
+
+The NAT Network has now been created.
