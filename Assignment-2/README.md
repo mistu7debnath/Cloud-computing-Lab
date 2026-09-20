@@ -68,3 +68,12 @@ Instead of installing Linux again, an existing VM can be cloned.
 9. The newly created VM will appear in VirtualBox.
 
 Important: When cloning a VM, a new MAC address should be generated for the cloned VM. This prevents both VMs from having the same network identity and helps avoid network connectivity problems.
+
+
+Step 3: Start Both Virtual Machines
+Start the first VM.
+Start the second VM.
+Wait until both Linux systems have completely booted.
+Open the Terminal in both VMs.
+
+Both VMs should now be running simultaneously.
