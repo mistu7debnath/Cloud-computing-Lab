@@ -431,13 +431,11 @@ pingall
 ```
 
 This checks whether all hosts in the minimal topology can communicate with each other.
-
-You can also test communication directly between the two hosts:
+we can also test communication directly between the two hosts:
 
 ```bash
 h1 ping -c 4 h2
 ```
-
 Successful replies indicate that communication between `h1` and `h2` is working.
 
 ---
