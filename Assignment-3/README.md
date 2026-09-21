@@ -356,7 +356,107 @@ Then clean the network:
 sudo mn -c
 ```
 ---
+---
 
+# Topology 4: Minimal Topology
+
+## Step 24: Create Minimal Topology
+
+Create the basic Mininet topology using:
+
+```bash
+sudo mn
+```
+
+The minimal topology contains two hosts connected to one switch:
+
+```text
+       h1
+        \
+         s1
+        /
+       h2
+```
+
+Where:
+
+- `h1` = Host 1
+- `h2` = Host 2
+- `s1` = Switch
+
+---
+
+## Step 25: View the Nodes
+
+Inside the Mininet CLI, run:
+
+```bash
+nodes
+```
+
+This command displays all nodes present in the minimal topology.
+
+---
+
+## Step 26: View the Links
+
+Run:
+
+```bash
+links
+```
+
+This displays the connections between the hosts and the switch.
+
+---
+
+## Step 27: Check Host IP Address
+
+To check the IP address of `h1`, use:
+
+```bash
+h1 ip addr
+```
+
+This displays the network interface and IP address information of `h1`.
+
+---
+
+## Step 28: Test Connectivity
+
+Use:
+
+```bash
+pingall
+```
+
+This checks whether all hosts in the minimal topology can communicate with each other.
+
+You can also test communication directly between the two hosts:
+
+```bash
+h1 ping -c 4 h2
+```
+
+Successful replies indicate that communication between `h1` and `h2` is working.
+
+---
+
+## Step 29: Stop the Minimal Topology
+
+After completing the test, exit Mininet:
+
+```bash
+exit
+```
+
+Then clean the Mininet network:
+
+```bash
+sudo mn -c
+```
+
+---
 
 
 # Important Mininet Commands
