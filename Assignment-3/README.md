@@ -443,13 +443,11 @@ Successful replies indicate that communication between `h1` and `h2` is working.
 ---
 
 ## Step 29: Stop the Minimal Topology
-
 After completing the test, exit Mininet:
 
 ```bash
 exit
 ```
-
 Then clean the Mininet network:
 
 ```bash
