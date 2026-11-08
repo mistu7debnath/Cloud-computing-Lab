@@ -259,11 +259,11 @@ The experiment demonstrated:
 - Understanding OpenFlow 1.3 and flow tables.
 - Implementing basic network traffic filtering.
 
-## Author
+## Author:
 
 **Manisha Debnath**  
 B.Tech – Computer Science and Engineering  
-Adamas University
+From Adamas University
 
 ---
 
