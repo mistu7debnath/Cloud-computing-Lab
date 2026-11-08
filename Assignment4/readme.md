@@ -20,9 +20,6 @@ Monitor OpenFlow flow entries.
 Implement packet filtering using a drop rule.
 
 
-
-
-
 ## Technologies Used
 - Ubuntu 26.04 LTS
 - Oracle VirtualBox
