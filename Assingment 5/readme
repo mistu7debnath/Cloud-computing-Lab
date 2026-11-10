@@ -22,3 +22,14 @@ To compare different combinations of VM and Cloudlet scheduling.
 
 To simulate cloud resource allocation and Cloudlet execution using CloudSim Plus.
 
+🛠️ Technologies Used
+
+Operating System: Ubuntu (Oracle VirtualBox)
+
+Programming Language: Java 17
+
+Cloud Simulator: CloudSim Plus 8.5.5
+
+Build Tool: Apache Maven 3.9.12
+
+Version Control: Git
