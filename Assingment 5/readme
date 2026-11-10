@@ -9,3 +9,16 @@ Space Shared Scheduling
 Time Shared Scheduling
 
 Four different combinations of these scheduling mechanisms are implemented and executed.
+
+.
+
+🎯 Objectives
+
+To understand scheduling mechanisms in cloud computing.
+
+To implement Space Shared and Time Shared scheduling.
+
+To compare different combinations of VM and Cloudlet scheduling.
+
+To simulate cloud resource allocation and Cloudlet execution using CloudSim Plus.
+
