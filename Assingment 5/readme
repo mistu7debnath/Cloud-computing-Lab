@@ -2,3 +2,9 @@ Experiment 5: Implementation of Various Scheduling Mechanisms Using an Open-Sour
 
 📌 Overview:
 This experiment demonstrates different scheduling mechanisms using CloudSim Plus, an open-source cloud simulation framework.
+
+The experiment compares Virtual Machine (VM) scheduling and Cloudlet scheduling using two approaches:
+
+Space Shared Scheduling
+
+Time Shared Scheduling
