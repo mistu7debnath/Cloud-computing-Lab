@@ -30,3 +30,197 @@ Cloud Simulator: CloudSim Plus 8.5.5
 Build Tool: Apache Maven 3.9.12
 
 Version Control: Git
+
+
+
+# Experiment 5: Implementation of Various Scheduling Mechanisms Using an Open-Source Cloud Simulator
+
+## 📌 Overview
+
+
+## ⚙️ Environment Setup
+
+### 1. Update Ubuntu
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+### 2. Install Java, Maven and Git
+
+```bash
+sudo apt install openjdk-17-jdk maven git -y
+```
+
+### 3. Verify installations
+
+```bash
+java -version
+javac -version
+mvn -version
+git --version
+```
+
+## 📂 Project Structure
+
+```text
+CloudSchedulingLab/
+│
+├── pom.xml
+│
+└── src/
+    └── main/
+        └── java/
+            └── lab/
+                └── SchedulingExperiment.java
+```
+
+## 📦 Maven Dependency
+
+The project uses CloudSim Plus version 8.5.5.
+
+```xml
+<dependency>
+    <groupId>org.cloudsimplus</groupId>
+    <artifactId>cloudsimplus</artifactId>
+    <version>8.5.5</version>
+</dependency>
+```
+
+## 🚀 Implementation Steps
+
+### 1. Create the Maven project
+
+```bash
+mkdir -p ~/CloudSchedulingLab/src/main/java/lab
+cd ~/CloudSchedulingLab
+```
+
+### 2. Resolve dependencies and clean the project
+
+```bash
+mvn dependency:resolve
+mvn clean
+```
+
+### 3. Create the Java source file
+
+```bash
+nano src/main/java/lab/SchedulingExperiment.java
+```
+
+The Java program creates:
+- One Datacenter
+- One Host with four Processing Elements (PEs)
+- Two Virtual Machines
+- Four Cloudlets
+
+### 4. Compile the program
+
+```bash
+mvn clean compile
+```
+
+### 5. Execute the simulation
+
+```bash
+mvn exec:java -Dexec.mainClass="lab.SchedulingExperiment" -Dexec.classpathScope=compile
+```
+
+If the Maven Exec plugin prefix is not resolved, use the fully qualified command:
+
+```bash
+mvn org.codehaus.mojo:exec-maven-plugin:3.5.0:java -Dexec.mainClass="lab.SchedulingExperiment" -Dexec.classpathScope=compile
+```
+
+## 📊 Scheduling Mechanisms Implemented
+
+The experiment implements four scheduling combinations:
+
+| Scenario | VM Scheduler | Cloudlet Scheduler |
+|---|---|---|
+| A | Space Shared | Space Shared |
+| B | Space Shared | Time Shared |
+| C | Time Shared | Space Shared |
+| D | Time Shared | Time Shared |
+
+### Scheduling Types
+
+**1. Space Shared Scheduling**
+
+Resources are allocated exclusively to a task or VM for the period of its execution. Other tasks may need to wait until the required resources become available.
+
+**2. Time Shared Scheduling**
+
+Available processing resources are shared among multiple tasks or VMs by allocating processing time to them.
+
+## 📸 Execution Screenshots
+
+Add your terminal screenshots in this section.
+
+### 1. Java, Maven and Git Installation
+
+![Environment Setup](screenshots/environment-setup.png)
+
+### 2. Maven Compilation
+
+![Maven Compilation](screenshots/maven-compile.png)
+
+### 3. Scenario A: VM SpaceShared + Cloudlet SpaceShared
+
+![Scenario A](screenshots/scenario-a.png)
+
+### 4. Scenario B: VM SpaceShared + Cloudlet TimeShared
+
+![Scenario B](screenshots/scenario-b.png)
+
+### 5. Scenario C: VM TimeShared + Cloudlet SpaceShared
+
+![Scenario C](screenshots/scenario-c.png)
+
+### 6. Scenario D: VM TimeShared + Cloudlet TimeShared
+
+![Scenario D](screenshots/scenario-d.png)
+
+### 7. Final Execution Result
+
+![Build Success](screenshots/build-success.png)
+
+## ✅ Results and Observations
+
+All four scheduling scenarios were executed successfully.
+
+| Scenario | Completed Cloudlets | Execution Status |
+|---|---:|---|
+| A | 4/4 | SUCCESS |
+| B | 4/4 | SUCCESS |
+| C | 4/4 | SUCCESS |
+| D | 4/4 | SUCCESS |
+
+**Observations:**
+
+- All four Cloudlets completed successfully in every scenario.
+- The simulation displayed Cloudlet IDs, VM IDs, execution status, start time and finish time.
+- The final Maven execution displayed `BUILD SUCCESS`.
+- Resource availability warnings appeared during execution, but they did not prevent the Cloudlets from completing.
+
+## 🏁 Conclusion
+
+The experiment successfully demonstrated four combinations of VM and Cloudlet scheduling mechanisms using CloudSim Plus.
+
+It helped understand how Space Shared and Time Shared scheduling approaches manage computing resources and execute Cloudlets in a simulated cloud environment.
+
+**Final Outcome:** Successfully implemented, compiled and executed all four scheduling scenarios.
+
+---
+
+## 👩‍💻 Author
+
+**Manisha Debnath**
+
+B.Tech – Computer Science and Engineering
+
+Adamas University
+
+**Experiment:** 5 – Cloud Computing Lab
