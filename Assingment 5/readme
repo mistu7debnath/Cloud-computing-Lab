@@ -7,3 +7,5 @@ The experiment compares Virtual Machine (VM) scheduling and Cloudlet scheduling 
 
 Space Shared Scheduling
 Time Shared Scheduling
+
+Four different combinations of these scheduling mechanisms are implemented and executed.
