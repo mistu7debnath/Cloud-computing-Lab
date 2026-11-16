@@ -1,1 +1,139 @@
 Cloud Computing Lab 7
+
+# Cloud Computing Lab 7
+
+## Experiment 7: Familiarization and Usage of Collaborative Applications (SaaS)
+
+### Aim
+To become familiar with Software as a Service (SaaS) and perform basic collaborative activities using cloud-based productivity and communication applications.
+
+---
+
+## Introduction
+
+Software as a Service (SaaS) is a cloud computing service model in which software applications are delivered to users over the internet. Users can access these applications through a web browser without installing and maintaining the complete software infrastructure locally.
+
+This experiment explores cloud-based productivity and communication applications using Google Workspace.
+
+## Applications and Tools Used
+
+- Google Docs
+- Google Sheets
+- Google Slides
+- Google Meet
+- Google Account
+- Google Chrome
+
+---
+
+## Task 1: Introduction to SaaS and Collaborative Applications
+
+- Accessed Google Docs using a personal Google account.
+- Explored the application homepage and dashboard.
+- Identified document creation and sharing options.
+- Explored cloud storage and collaboration features.
+- Observed account settings and access-control options.
+
+## Task 2: Collaborative Document Creation Using Cloud SaaS
+
+**Application:** Google Docs
+
+- Created a new cloud-based document.
+- Added information about Software as a Service.
+- Created a table describing SaaS features.
+- Explored document-sharing permissions:
+  - Viewer
+  - Commenter
+  - Editor
+- Explored collaborative editing and commenting.
+- Examined document version history.
+
+**Document Title:** Cloud Computing Lab 7 – Collaborative Document
+
+### SaaS Features
+
+| Feature | Description |
+|---|---|
+| Accessibility | Application can be accessed through the internet |
+| Collaboration | Multiple users can work on shared content |
+| Updates | Software updates are managed by the provider |
+| Storage | Data can be stored in the cloud |
+
+## Task 3: Collaborative Spreadsheet Using Cloud SaaS
+
+**Application:** Google Sheets
+
+- Created a new cloud-based spreadsheet.
+- Entered five student records with their marks.
+- Performed basic spreadsheet operations.
+- Applied formatting to the spreadsheet.
+- Explored spreadsheet sharing and collaborative data entry.
+
+### Spreadsheet Formulas
+
+| Operation | Formula | Result |
+|---|---|---:|
+| Total Marks | `=SUM(D2:D6)` | 403 |
+| Average Marks | `=AVERAGE(D2:D6)` | 80.6 |
+| Highest Marks | `=MAX(D2:D6)` | 91 |
+| Lowest Marks | `=MIN(D2:D6)` | 68 |
+
+**Spreadsheet Title:** Cloud Computing Lab 7 – Collaborative Spreadsheet
+
+## Task 4A: Collaborative Presentation
+
+**Application:** Google Slides
+
+Created a cloud-based presentation containing four slides:
+
+1. Software as a Service (SaaS)
+2. What is SaaS?
+3. Examples of SaaS
+4. Advantages of SaaS
+
+Also explored presentation sharing, editing permissions, formatting and commenting features.
+
+**Presentation Title:** Cloud Computing – SaaS Applications
+
+## Task 4B: Online Communication and Collaboration
+
+**Application:** Google Meet
+
+- Accessed Google Meet using a personal Google account.
+- Explored the Google Meet dashboard.
+- Identified meeting creation and joining options.
+- Explored online communication and collaboration features:
+  - Audio communication
+  - Video conferencing
+  - Screen sharing
+  - Meeting chat
+  - Participant management
+  - Automatic captions
+
+---
+
+## Learning Outcomes
+
+After completing this experiment, the following concepts were understood:
+
+- Basic concept and characteristics of SaaS.
+- Usage of cloud-based productivity applications.
+- Creation and management of online documents.
+- Spreadsheet data entry and basic calculations.
+- Online presentation creation and sharing.
+- Document and file-sharing permissions.
+- Collaborative editing and communication.
+- Cloud-based remote communication using Google Meet.
+
+## Conclusion
+
+The experiment provided practical knowledge of Software as a Service (SaaS) and its applications in cloud computing. Google Docs, Google Sheets, Google Slides and Google Meet were explored to understand cloud-based document creation, spreadsheet operations, online presentations, file sharing and communication.
+
+Thus, the experiment helped in understanding how SaaS applications support online productivity and collaboration.
+
+---
+
+**Subject:** Cloud Computing Lab  
+**Experiment Number:** 7  
+**Platform:** Google Workspace  
+**Account Used:** Personal Google Account
