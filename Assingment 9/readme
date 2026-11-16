@@ -1,1 +1,204 @@
 Cloud Computing Lab 9 – Develop MapReduce Application Using Hadoop Cluster Setup
+
+
+
+
+
+
+# Cloud Computing Lab 9 – Develop MapReduce Application Using Hadoop Cluster Setup
+
+## Experiment 9
+
+**Title:** Develop MapReduce Application Using Hadoop Cluster Setup
+
+## Aim
+
+To set up a Hadoop cluster in a Linux environment and develop, execute, and verify a MapReduce application using the Hadoop Distributed File System (HDFS) and Hadoop MapReduce framework.
+
+## Technologies Used
+
+- **Operating System:** Ubuntu 26.04.1 LTS
+- **Virtualization:** Oracle VirtualBox
+- **Programming Language:** Java
+- **Java Version:** OpenJDK 17
+- **Hadoop Version:** Apache Hadoop 3.5.0
+- **File System:** Hadoop Distributed File System (HDFS)
+- **Resource Management:** YARN
+- **Application:** WordCount MapReduce Program
+
+## Project Structure
+
+```text
+cloud-lab9/
+│
+├── WordCount.java
+├── WordCount.class
+├── WordCount$TokenizerMapper.class
+├── WordCount$IntSumReducer.class
+├── wordcount.jar
+├── input.txt
+├── downloaded.txt
+└── README.md
+```
+
+## Tasks Performed
+
+### Task 1: Hadoop Cluster Setup
+
+- Installed OpenJDK 17.
+- Downloaded and configured Apache Hadoop 3.5.0.
+- Set Hadoop environment variables.
+- Configured `core-site.xml`, `hdfs-site.xml`, `mapred-site.xml`, and `yarn-site.xml`.
+- Configured passwordless SSH for localhost.
+- Formatted the NameNode and initialized HDFS.
+
+### Task 2: HDFS Configuration and Operations
+
+- Started HDFS and YARN services.
+- Verified Hadoop daemons using the `jps` command.
+- Created the HDFS directory structure:
+
+```bash
+/user/student/cloud-lab9/input
+```
+
+- Created the sample input file `input.txt`.
+- Uploaded the input file to HDFS.
+- Performed basic HDFS operations such as listing, displaying, checking storage usage, creating directories, and copying files from HDFS to the local system.
+
+### Task 3: MapReduce Application Development
+
+Developed a Java-based WordCount application using Hadoop MapReduce.
+
+The application consists of:
+
+- **Mapper:** Reads input text and generates intermediate key-value pairs.
+- **Reducer:** Aggregates the values associated with each word and calculates its total frequency.
+
+Compiled the Java program using Hadoop libraries:
+
+```bash
+export HADOOP_CLASSPATH=$(hadoop classpath)
+
+javac -classpath "$HADOOP_CLASSPATH" -d . WordCount.java
+```
+
+Created the executable JAR file:
+
+```bash
+jar -cvf wordcount.jar -C . .
+```
+
+### Task 4: MapReduce Execution and Result Analysis
+
+Executed the WordCount application:
+
+```bash
+hadoop jar wordcount.jar WordCount \
+/user/student/cloud-lab9/input \
+/user/student/cloud-lab9/output
+```
+
+The MapReduce job completed successfully.
+
+**Execution Results:**
+
+| Parameter | Result |
+|---|---:|
+| Map Input Records | 6 |
+| Map Output Records | 31 |
+| Reduce Input Groups | 22 |
+| Reduce Output Records | 22 |
+| Map Tasks | 1 |
+| Reduce Tasks | 1 |
+| Failed Shuffles | 0 |
+| Job Status | SUCCESS |
+
+Verified the output using:
+
+```bash
+hdfs dfs -ls /user/student/cloud-lab9/output
+
+hdfs dfs -cat /user/student/cloud-lab9/output/part-r-00000
+```
+
+The output contains 22 unique words and their corresponding frequencies.
+
+### Task 5: Hadoop Web Interfaces
+
+Explored the Hadoop web interfaces:
+
+**NameNode Web Interface:**
+http://localhost:9870
+
+Observed HDFS overview, DataNodes, storage information, and file system details.
+
+**ResourceManager Web Interface:**
+http://localhost:8088
+
+Observed cluster metrics, active nodes, application status, and resource information.
+
+### Task 6: HDFS Block Verification
+
+Executed the HDFS filesystem check:
+
+```bash
+hdfs fsck /user/student/cloud-lab9/input -files -blocks -locations
+```
+
+**Verification Results:**
+
+- File size: 240 bytes
+- Total files: 1
+- Total blocks: 1
+- Replication factor: 1
+- Missing blocks: 0
+- Corrupt blocks: 0
+- Filesystem status: HEALTHY
+
+### Task 7: Stop Hadoop Services
+
+Stopped YARN and HDFS services after completing the experiment:
+
+```bash
+stop-yarn.sh
+
+stop-dfs.sh
+```
+
+Verified the shutdown:
+
+```bash
+jps
+```
+
+Only the JPS process remained, confirming that the Hadoop daemons had stopped.
+
+## Screenshots
+
+The following screenshots document the practical execution:
+
+1. Hadoop installation and version verification.
+2. Hadoop configuration files.
+3. SSH configuration and passwordless login.
+4. NameNode formatting.
+5. Hadoop services running using `jps`.
+6. HDFS directory creation.
+7. Input file creation and upload.
+8. WordCount Java source code.
+9. Java compilation.
+10. JAR file creation.
+11. Successful MapReduce job execution.
+12. HDFS WordCount output.
+13. NameNode web interface.
+14. ResourceManager web interface.
+15. HDFS block verification.
+16. Basic HDFS operations.
+17. Copying files from HDFS to the local system.
+18. Hadoop services stopped successfully.
+
+## Result
+
+Successfully installed and configured Apache Hadoop 3.5.0 in Ubuntu using Oracle VirtualBox. Created and executed a Java-based WordCount MapReduce application, verified the generated word frequencies in HDFS, explored Hadoop web interfaces, checked HDFS block health, and successfully stopped all Hadoop services.
+
+**Experiment 9 completed successfully.**
