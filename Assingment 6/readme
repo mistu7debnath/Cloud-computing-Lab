@@ -1,1 +1,175 @@
+# Cloud Computing Lab 6 – Experiment 6
 
+## Familiarization and Usage of Cloud Services Using AWS and Open-Source Cloud Tools
+
+## Aim
+To become familiar with different cloud services and perform basic cloud operations using Amazon Web Services (AWS), Ubuntu Linux, Oracle VirtualBox, and AWS Command Line Interface (CLI).
+
+## Tools and Technologies Used
+- Oracle VirtualBox
+- Ubuntu Linux
+- Amazon Web Services (AWS)
+- Amazon S3 (Simple Storage Service)
+- AWS IAM (Identity and Access Management)
+- Amazon EC2 (Elastic Compute Cloud)
+- Amazon VPC (Virtual Private Cloud)
+- Amazon CloudWatch
+- AWS CLI
+- AWS CloudShell
+
+## Tasks Performed
+
+### Task 1: Virtual Machine Setup
+- Created and configured an Ubuntu virtual machine using Oracle VirtualBox.
+- Updated the Ubuntu system.
+- Practised basic Linux commands.
+- Created a directory named `cloud-lab6`.
+- Created and displayed a sample text file named `lab-note.txt`.
+
+**Commands used:**
+```bash
+sudo apt update
+sudo apt upgrade -y
+
+mkdir cloud-lab6
+cd cloud-lab6
+
+echo "Cloud Computing Lab Experiment 6" > lab-note.txt
+cat lab-note.txt
+```
+
+### Task 2: Cloud Storage Using Amazon S3
+- Explored Amazon S3 through the AWS Management Console.
+- Created an S3 bucket.
+- Explored bucket settings and access permissions.
+- Practised uploading, viewing, and downloading objects.
+- Reviewed the importance of keeping S3 buckets private.
+
+### Task 3: AWS Service Exploration
+
+#### 3.1 Identity and Access Management (IAM)
+- Explored the IAM dashboard.
+- Examined Users, Groups, Roles, and Policies.
+- Understood how IAM controls access to AWS resources.
+- Learned about the principle of least privilege.
+
+#### 3.2 Amazon EC2
+- Explored the EC2 dashboard.
+- Examined instance configurations and available options.
+- Learned about Amazon Machine Images (AMIs), instance types, key pairs, networking, and storage.
+- Did not launch an EC2 instance because launching was optional and subject to account eligibility and instructor approval.
+
+#### 3.3 Amazon VPC
+- Explored the VPC dashboard.
+- Examined VPCs, subnets, route tables, internet gateways, and security groups.
+- Understood the basic concepts of public and private subnets.
+- Observed inbound and outbound security rules.
+
+### Task 4: Cloud Monitoring and AWS CLI
+
+#### 4.1 Amazon CloudWatch
+- Explored the CloudWatch dashboard.
+- Examined available metrics and their organization.
+- Explored the CloudWatch Alarms section.
+- Learned how metrics and threshold conditions are used for monitoring.
+- No EC2 CPU metrics, alarms, or log groups were available in the account during the practical.
+
+#### 4.2 AWS CLI Using CloudShell
+Opened AWS CloudShell and performed basic AWS CLI operations.
+
+**Step 1: Verify AWS CLI installation**
+```bash
+aws --version
+```
+
+**Step 2: Verify AWS account identity**
+```bash
+aws sts get-caller-identity
+```
+
+**Step 3: List available S3 buckets**
+```bash
+aws s3 ls
+```
+
+**Step 4: Create a working directory**
+```bash
+mkdir cloud-lab6-cli
+cd cloud-lab6-cli
+```
+
+**Step 5: Create a sample file**
+```bash
+echo "AWS CLI Cloud Storage Test" > sample.txt
+cat sample.txt
+```
+
+**Step 6: Upload the file to Amazon S3**
+```bash
+aws s3 cp sample.txt s3://cc-lab6-s3-20261116-899367186180/sample.txt
+```
+
+**Step 7: List objects in the bucket**
+```bash
+aws s3 ls s3://cc-lab6-s3-20261116-899367186180/
+```
+
+**Step 8: Download the file**
+```bash
+aws s3 cp s3://cc-lab6-s3-20261116-899367186180/sample.txt downloaded.txt
+```
+
+**Step 9: Verify the downloaded file**
+```bash
+cat downloaded.txt
+diff -s sample.txt downloaded.txt
+```
+
+The output confirmed:
+```text
+Files sample.txt and downloaded.txt are identical
+```
+
+**Step 10: Delete the test object**
+```bash
+aws s3 rm s3://cc-lab6-s3-20261116-899367186180/sample.txt
+```
+
+Verified that the bucket contained no objects after deletion.
+
+## Results
+- Successfully configured and used an Ubuntu virtual machine in Oracle VirtualBox.
+- Explored Amazon S3 and performed cloud storage operations.
+- Studied IAM, EC2, and VPC services.
+- Explored CloudWatch metrics and alarms.
+- Successfully performed AWS CLI operations using CloudShell.
+- Uploaded, downloaded, verified, and deleted a sample file from Amazon S3.
+
+## Precautions
+- Never share AWS passwords, secret access keys, or private keys.
+- Keep S3 buckets private.
+- Avoid launching EC2 instances without approval and checking applicable charges.
+- Do not modify or delete default VPC resources.
+- Remove unused AWS resources after completing the experiment.
+- Check the AWS Billing Dashboard to monitor possible charges.
+
+## Screenshots
+
+Add your practical screenshots in this section.
+
+1. Ubuntu Virtual Machine Setup
+2. Ubuntu Terminal and Linux Commands
+3. Amazon S3 Bucket Creation
+4. S3 File Upload and Download
+5. IAM Dashboard
+6. EC2 Dashboard
+7. VPC Components
+8. CloudWatch Metrics
+9. CloudWatch Alarms
+10. AWS CLI Version and Identity Verification
+11. AWS CLI File Upload to S3
+12. AWS CLI File Download and Verification
+13. AWS CLI Test Object Deletion
+
+## Conclusion
+Successfully completed the practical exploration of AWS cloud services using Oracle VirtualBox, Ubuntu Linux, AWS Management Console, and AWS CloudShell. Gained practical knowledge of cloud storage, identity and access management, virtual machines, networking, monitoring, and basic AWS CLI operations.
