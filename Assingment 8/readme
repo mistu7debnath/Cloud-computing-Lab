@@ -1,1 +1,93 @@
+# Cloud Computing Lab 8 – Google App Engine (PaaS)
+
+## Experiment 8: Implementing Applications using Google App Engine
+
+### Aim
+To understand Platform as a Service (PaaS) and implement, deploy, and manage a simple web application using Google App Engine.
+
+### Technologies Used
+- Google Cloud Platform (GCP)
+- Google App Engine
+- Python 3
+- Flask Framework
+- Google Cloud CLI
+- Ubuntu Linux
+- Oracle VirtualBox
+
+### Tasks Performed
+
+**Task 1: Introduction to PaaS and Google App Engine**
+- Studied the Platform as a Service (PaaS) model.
+- Explored Google App Engine.
+- Created/configured a Google Cloud project.
+- Selected an App Engine region.
+
+**Task 2: Application Development**
+- Created a Python Flask web application.
+- Configured application dependencies using `requirements.txt`.
+- Executed and tested the application locally.
+
+**Task 3: Application Deployment**
+- Installed and configured Google Cloud CLI.
+- Authenticated with Google Cloud.
+- Configured the Google Cloud project.
+- Created the `app.yaml` configuration file.
+- Deployed the application using Google App Engine.
+- Accessed the deployed application through its URL.
+
+**Task 4: Application Monitoring and Management**
+- Explored deployed application versions.
+- Monitored application logs.
+- Modified and redeployed the application.
+- Explored services, instances, monitoring, and traffic management.
+
+### Project Structure
+
+```text
+cloud-lab8/
+│
+├── main.py
+├── requirements.txt
+├── app.yaml
+└── README.md
+```
+
+### Commands Used
+
+```bash
+mkdir cloud-lab8
+cd cloud-lab8
+
+pip install Flask
+python main.py
+
+gcloud --version
+gcloud auth login
+gcloud projects list
+gcloud config set project PROJECT_ID
+gcloud config get-value project
+
+gcloud app deploy
+gcloud app browse
+
+gcloud app versions list
+gcloud app logs tail
+```
+
+### Expected Outcome
+Successfully develop, test, deploy, and manage a Flask web application using Google App Engine, demonstrating the PaaS cloud computing service model.
+
+### Conclusion
+This experiment demonstrates how Google App Engine provides a managed platform for application development, deployment, automatic scaling, logging, and version management without requiring manual management of the underlying server infrastructure.
+
+### Screenshots
+Screenshots of the following activities will be included:
+- Google Cloud project configuration.
+- App Engine setup.
+- Flask application running locally.
+- Google Cloud CLI authentication.
+- Successful application deployment.
+- Deployed application in the browser.
+- Application versions and logs.
+- Updated application after redeployment.
 
